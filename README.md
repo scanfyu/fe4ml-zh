@@ -36,6 +36,32 @@ ApacheCN 纯粹出于学习目的与个人兴趣翻译本书，不追求任何�
 
 本译文只供学习研究参考之用，不得用于商业用途。ApacheCN 保留对此版本译文的署名权及其它相关权利。
 
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/fe4ml-zh
+docker run -tid -p <port>:80 apachecn0/fe4ml-zh
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install fe4ml-zh
+fe4ml-zh <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g fe4ml-zh
+fe4ml-zh <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
 ## 赞助我们
 
 <img src="http://www.apachecn.org/img/about/donate.jpg" alt="微信&支付宝" />
